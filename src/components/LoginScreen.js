@@ -21,13 +21,12 @@ export const  LoginScreen = () => {
         
         dispatch(action);
 
-        navigate('/marvel', {
+        const lastPath  =   localStorage.getItem('lastPath') || '/';
+
+        navigate(lastPath, {
             replace: true
         });
-
-        /*
-        
-        */
+ 
     }
 
     return (
