@@ -2,6 +2,7 @@ import React, { useMemo } from 'react'
 import { Navigate, useNavigate, useParams } from 'react-router-dom'
 import { getHeroeById } from '../../selectors/getHeroByid';
 
+
 export const  HeroeScreen = () => {
 
     const {heroeId}    = useParams(); // este hook de react-router-dom me devuelve un objeto con la ruta complea y sus parametros en varias propiedades
@@ -29,7 +30,7 @@ export const  HeroeScreen = () => {
         characters
     } = hero;
 
-    const imgPath   =   `/assets/${id}.jpg`;
+    const imgPath   =   `http://pruebacarlos.890m.com/img/${id}.jpg`;
 
     console.log(hero);
 
