@@ -30,7 +30,7 @@ export const  HeroeScreen = () => {
         characters
     } = hero;
 
-    const imgPath   =   `http://pruebacarlos.890m.com/img/${id}.jpg`;
+    const imgPath   =  `./assets/${id}.jpg`;
 
     console.log(hero);
 
@@ -41,7 +41,7 @@ export const  HeroeScreen = () => {
                 <img 
                     src={imgPath} 
                     alt={superhero }
-                    className="img-thumbnail animate__animated animate__fadeInLeft"
+                    className="img-thumbnail animate__animated animate__fadeIn"
                 />
            </div>
 

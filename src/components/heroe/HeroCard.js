@@ -10,7 +10,7 @@ export const  HeroCard = ({
     characters
 }) => {
 
-    const imagePath = `http://pruebacarlos.890m.com/img/${id}.jpg`;
+    const imagePath =`./assets/${id}.jpg`;
 
     return (    
 
