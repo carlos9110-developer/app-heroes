@@ -6,9 +6,10 @@ import { DashboardRoutes } from './DashboardRoutes';
 export const AppRouter = () => {
     return (
 
+        //
         //<BrowserRouter>
-        
         <HashRouter>
+        
             <Routes>
 
                 <Route path="/login" element={<LoginScreen />} />
@@ -16,10 +17,10 @@ export const AppRouter = () => {
 
             </Routes>
 
-        </HashRouter>
+        
 
             
-
+        </HashRouter>
         //</BrowserRouter>
         
     );
